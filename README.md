@@ -31,13 +31,17 @@
    ```bash
    git clone https://github.com/<username>/Stock-market-dashboard.git
    cd Stock-market-dashboard
-2. Create and activate a virtual environment
-    python -m venv venv
-    source venv/bin/activate   # Mac/Linux
-    venv\Scripts\activate      # Windows
-3. Install dependencies
-   pip install -r requirements.txt
-4. Run the Flask app
-   python app.py
+# Step 2: Create and activate a virtual environment
+# Mac/Linux
+python -m venv venv
+source venv/bin/activate
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+# Step 3: Install dependencies
+pip install -r requirements.txt
+# Step 4: Run the Flask app
+python app.py
 📌 Live Demo
     https://stockanalyzer-wwjn.onrender.com/
