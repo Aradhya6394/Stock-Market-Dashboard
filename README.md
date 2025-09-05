@@ -24,24 +24,5 @@
 - **Frontend:** HTML, CSS, JavaScript (Chart.js for visualizations)  
 - **Data Source:** Stock data from CSV  
 
----
 
-## 🚀 How to Run Locally
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/<username>/Stock-market-dashboard.git
-   cd Stock-market-dashboard
-# Step 2: Create and activate a virtual environment
-# Mac/Linux
-python -m venv venv
-source venv/bin/activate
 
-# Windows
-python -m venv venv
-venv\Scripts\activate
-# Step 3: Install dependencies
-pip install -r requirements.txt
-# Step 4: Run the Flask app
-python app.py
-📌 Live Demo
-    https://stockanalyzer-wwjn.onrender.com/
